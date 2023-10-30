@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ------ Css ------- -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ------ RemixIcon ------- -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- ------ BoxIcon ------- -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <title>Day #30 - Responsive Portfolio Website | NaeuCode </title>
+</head>
+<body>
+    <!-- ---------------- Header --------------- -->
+    <header>
+        <a href="#" class="logo">NaeuCode<span>.</span></a>
+
+        <div class="nav-container">
+            <ul class="navbar">
+                <li class="nav-link active-link"><a href="#profile">Home</a></li>
+                <li class="nav-link"><a href="#about">About Me</a></li>
+                <li class="nav-link"><a href="#skills">Skills</a></li>
+                <li class="nav-link"><a href="#projects">Projects</a></li>
+                <li class="nav-link"><a href="#contact">Contact Me</a></li>
+            </ul>
+            
+            <div class="nav-button">
+                <i class="bx bx-moon change-theme" id="theme-button"></i>
+                <a href="#"><i class="bx bx-menu" id="menu-icon"></i></a>
+            </div>
+        </div>
+        <div class="underline"></div>
+
+    </header>
+    <!-- ---------------- Profile Section --------------- -->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="assets/p1.png" class="profile-pic">
+        </div>
+
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Naeim Arteghzadeh</h1>
+            <p class="section__text__p2">Front-End Developer</p>
+            <p class="section__text__p3">With knowledge in web development and design,</br>I offer the best projects resulting in quality work.</p>
+
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('/assets/resume-example.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+
+            <div id="socials-container">
+                <a href="https://github.com/NaeuCode" target="_blank"><i class="ri-github-line social-icon"></i></a>
+                <a href="https://www.instagram.com/naeucode/" target="_blank"><i class="ri-instagram-line social-icon"></i></a>
+                <a href="https://www.youtube.com/" target="_blank"><i class="ri-youtube-line social-icon"></i></a>
+            </div>
+
+        </div>
+    </section>
+    <!-- ---------------- About Section --------------- -->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+
+        <div class="section-container">
+            <div class="about-details-container">
+                <div class="text-container">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius nesciunt vero laboriosam soluta, perferendis ipsa tenetur nostrum ullam numquam, dolorum fuga totam ipsam placeat! Quos nobis earum ipsam accusamus explicabo illum labore quibusdam libero, minus voluptate iure molestias assumenda nihil sequi nemo, ullam officia in numquam, accusantium harum dicta voluptatem dolorem? Non molestias nulla unde a. Officia est optio labore!<br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, qui esse ab fuga nulla eveniet illum voluptates? Deserunt, sequi minus?
+                    </p>
+                </div>
+            </div>
+
+            <div class="section__pic-container">
+                <img src="./assets/p2.png" class="about-pic">
+            </div>
+        </div>
+        <img src="./assets/arrow.png" class="arrow">
+    </section>
+    <!-- ---------------- Skills Section --------------- -->
+    <section class="skills" id="skills">
+
+        <p class="section__text__p1">Favorite Skills</p>
+        <h1 class="title skill-text">My Skills</h1>
+
+        <div class="skill-content">
+            <div class="row">
+                <div class="row-img">
+                    <img src="assets/s1.png" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="assets/s2.png" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="assets/s3.png" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="assets/s4.png" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="row-img">
+                    <img src="assets/s5.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- ---------------- Project Section --------------- -->
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+
+                <div class="details-container">
+                    <div>
+                        <img src="assets/project-1.png" class="project-img">
+                    </div>
+                    <h2 class="experience-sun-title project-title">Project One</h2>
+                    <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github<i class="ri-github-line p-icon"></i></button>
+                    <button class="btn btn-color-1" onclick="location.href='https://github.com'">Live Demo<i class="ri-upload-2-line p-icon"></i></button>
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <div>
+                        <img src="assets/project-2.png" class="project-img">
+                    </div>
+                    <h2 class="experience-sun-title project-title">Project Two</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github<i class="ri-github-line p-icon"></i></button>
+                        <button class="btn btn-color-1" onclick="location.href='https://github.com'">Live Demo<i class="ri-upload-2-line p-icon"></i></button>
+                        </div>
+                </div>
+
+                <div class="details-container">
+                    <div>
+                        <img src="assets/project-3.png" class="project-img">
+                    </div>
+                    <h2 class="experience-sun-title project-title">Project Three</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com'">Github<i class="ri-github-line p-icon"></i></button>
+                        <button class="btn btn-color-1" onclick="location.href='https://github.com'">Live Demo<i class="ri-upload-2-line p-icon"></i></button>
+                        </div>
+                </div>
+
+            </div>
+        </div>
+        <img src="./assets/arrow.png" class="arrow">
+    </section>
+    <!-- ---------------- Contact Section --------------- -->
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+
+        <form action="index.html" method="post" class="contact-form">
+            <div class="input-wrap">
+                <input class="contact-input" autocomplete="off" name="First Name" type="text" required/>
+                <label >First Name</label>
+                <i class="fa-solid fa-address-card form-icon"></i>
+            </div>
+            <div class="input-wrap">
+                <input class="contact-input" autocomplete="off" name="Last Name" type="text" required/>
+                <label >Last Name</label>
+                <i class="fa-solid fa-address-card form-icon"></i>
+            </div>
+
+            <div class="input-wrap w-100">
+                <input type="email" autocomplete="off" name="Email" class="contact-input">
+                <label>Email</label>
+                <i class="fa-solid fa-envelope form-icon"></i>
+            </div>
+
+            <div class="input-wrap textarea w-100">
+                <textarea name="Message" autocomplete="off" class="contact-input" required></textarea>
+                <label >Message</label>
+                <i class="fa-solid fa-inbox form-icon"></i>
+            </div>
+            <button class="btn btn-color-1">Send Message</button>
+        </form>
+    </section>
+    <!-- ---------------- CopyRight --------------- -->
+    <p class="copyright">&#169; NaeuCode. All right reserved</p>
+    <!-- ---------------- Scroll Up --------------- -->
+    <a href="#profile" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line scrollup__icon"></i>
+    </a>
+    
+    <!-- ------ CDN FontAwesome ------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+    <!-- ------ JavaScript ------- -->
+    <script src="script.js"></script>
+</body>
+</html>
