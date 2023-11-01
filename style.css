@@ -344,6 +344,10 @@ section {
   box-shadow: 0 0 1px var(--shadow-color);
 }
 
+.details-container .btn {
+  padding: 5px 0px;
+}
+
 .project-img {
   border-radius: 1rem;
   width: 100%;
