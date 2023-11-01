@@ -345,7 +345,12 @@ section {
 }
 
 .details-container .btn {
-  padding: 5px 0px;
+  padding: 6px 10px;
+  font-size: 18px;
+}
+
+.view-project {
+  display: block ruby;
 }
 
 .project-img {
