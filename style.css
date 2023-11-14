@@ -469,8 +469,8 @@ textarea.contact-input ~ .form-icon {
 
 .contact-form button {
   position: relative;
+  left: 85%;
   font-size: 12px;
-  left: 80%;
   margin-top: 1rem;
 }
 
@@ -567,8 +567,9 @@ textarea.contact-input ~ .form-icon {
   }
 
   .section__pic-container {
-    width: 275px;
-    height: 275px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
     margin: 0 auto 2rem;
   }
 
@@ -672,7 +673,7 @@ textarea.contact-input ~ .form-icon {
 
 @media screen and (max-width: 540px) {
   .section__pic-container {
-    height: 60vw;
+    height: 75vw;
   }
   .contact-form {
     display: block;
