@@ -51,6 +51,7 @@ body {
 p {
   color: var(--p-color);
 }
+
 /* ============= Header ============ */
 header {
   position: fixed;
@@ -351,7 +352,7 @@ section {
 }
 
 .view-project {
-  display:  ruby;
+  display: ruby;
 }
 
 .project-img {
@@ -438,12 +439,12 @@ textarea.contact-input {
   min-height: 150px;
 }
 
-textarea.contact-input ~ label {
+textarea.contact-input~label {
   top: 1.2rem;
   transform: none;
 }
 
-textarea.contact-input ~ .form-icon {
+textarea.contact-input~.form-icon {
   top: 1.3rem;
   transform: none;
 }
@@ -457,6 +458,7 @@ textarea.contact-input ~ .form-icon {
 .input-wrap.focus label {
   color: var(--secondary-color);
 }
+
 .input-wrap.focus .form-icon {
   color: var(--secondary-color);
 }
@@ -521,9 +523,11 @@ textarea.contact-input ~ .form-icon {
   #profile {
     height: 90vh;
   }
+
   .about-containers {
     flex-wrap: wrap;
   }
+
   #projects {
     height: fit-content;
   }
@@ -533,16 +537,20 @@ textarea.contact-input ~ .form-icon {
   .nav-container ul li {
     margin-right: 10px;
   }
+
   #profile {
     height: auto;
     min-height: 100vh;
   }
+
   #about {
     height: auto;
   }
+
   .arrow {
     display: none;
   }
+
   .text-container p {
     font-size: 20px;
   }
@@ -551,6 +559,7 @@ textarea.contact-input ~ .form-icon {
   .section-container {
     height: fit-content;
   }
+
   section {
     margin: 0 5%;
   }
@@ -620,7 +629,7 @@ textarea.contact-input ~ .form-icon {
     font-size: 12px;
   }
 
-  .text-container p{
+  .text-container p {
     margin-top: 2rem;
     font-size: 18px;
   }
@@ -643,6 +652,7 @@ textarea.contact-input ~ .form-icon {
   .scrollup {
     display: none;
   }
+
   .title {
     font-size: 2rem;
   }
@@ -675,15 +685,19 @@ textarea.contact-input ~ .form-icon {
   .section__pic-container {
     height: 75vw;
   }
+
   .contact-form {
     display: block;
   }
+
   .input-wrap {
     margin-top: 8px;
   }
+
   .contact-form button {
     left: 30%;
   }
+
   .text-container p {
     font-size: 16px;
   }
