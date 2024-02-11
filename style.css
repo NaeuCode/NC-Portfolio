@@ -351,12 +351,8 @@ section {
 }
 
 .details-container .btn {
-  padding: 6px 10px;
-  font-size: 18px;
-}
-
-.view-project {
-  display: ruby;
+  padding: 4px 8px;
+  font-size: 14px;
 }
 
 .project-img {
@@ -374,6 +370,8 @@ section {
 .project-title {
   margin: 1rem;
   color: var(--primary-color);
+  font-size: 1.6rem;
+  font-weight: 600;
 }
 
 .p-icon {
@@ -577,6 +575,10 @@ textarea.contact-input~.form-icon {
   section {
     margin: 0 5%;
   }
+
+  .project-title {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -587,6 +589,17 @@ textarea.contact-input~.form-icon {
   #profile {
     display: block;
     min-height: 70vh;
+  }
+
+  .about-containers {
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+    justify-items: center;
+    align-items: center;
+  }
+
+  .details-container {
+    width: 75%;
   }
 
   .section__pic-container {
@@ -646,6 +659,11 @@ textarea.contact-input~.form-icon {
   .text-container {
     margin-top: 2rem;
     font-size: 18px;
+  }
+
+  .project-title {
+    font-size: 24px;
+    font-weight: 600;
   }
 
 
@@ -708,13 +726,20 @@ textarea.contact-input~.form-icon {
     margin-top: 8px;
   }
 
-  .text-container {
-    font-size: 16px;
+  .details-container {
+    width: 100%;
   }
+
+  .project-title {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
 }
 
 @media screen and (max-width: 390px) {
   .row-img img {
     height: 40%;
   }
+
 }
