@@ -226,6 +226,7 @@ section {
 .btn-container {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1rem;
 }
 
@@ -261,9 +262,13 @@ section {
   margin-bottom: 3rem;
 }
 
-.text-container p {
+.text-container {
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 400;
+}
+
+.text-container span {
+  font-weight: 700;
 }
 
 .about-pic {
@@ -338,7 +343,6 @@ section {
 }
 
 .details-container {
-  padding: 1.5rem;
   flex: 1;
   background: var(--secondary-color);
   border-radius: 2rem;
@@ -356,10 +360,15 @@ section {
 }
 
 .project-img {
-  border-radius: 1rem;
+  border-radius: 2rem 2rem 0 0;
   width: 100%;
   height: 100%;
   filter: brightness(85%);
+}
+
+.project-img:hover {
+  filter: brightness(100%);
+  transition: all .2s ease-in;
 }
 
 .project-title {
@@ -469,9 +478,7 @@ textarea.contact-input~.form-icon {
   transform: translateY(0%);
 }
 
-.contact-form button {
-  position: relative;
-  left: 85%;
+.btn-container a {
   font-size: 12px;
   margin-top: 1rem;
 }
@@ -490,14 +497,19 @@ textarea.contact-input~.form-icon {
 /* ====== Scroll TOp ===== */
 .scrollup {
   position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   right: 25px;
   bottom: -7%;
   background-color: var(--primary-color);
   opacity: 0.8;
-  padding: 5px 8px;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   z-index: 10002;
   transition: all 0.4s ease;
+  cursor: pointer;
 }
 
 .scrollup:hover {
@@ -505,13 +517,15 @@ textarea.contact-input~.form-icon {
   background-color: var(--secondary-color);
 }
 
-.scrollup__icon {
-  font-size: 1.6rem;
+.scrollup i {
+  font-size: 1.1rem;
   color: var(--secondary-color);
 }
 
-.scrollup__icon:hover {
+.scrollup i:hover {
   color: var(--primary-color);
+  transform: translateY(-.4rem);
+  transition: all .2s ease;
 }
 
 .show-scroll {
@@ -551,7 +565,7 @@ textarea.contact-input~.form-icon {
     display: none;
   }
 
-  .text-container p {
+  .text-container {
     font-size: 20px;
   }
 
@@ -629,7 +643,7 @@ textarea.contact-input~.form-icon {
     font-size: 12px;
   }
 
-  .text-container p {
+  .text-container {
     margin-top: 2rem;
     font-size: 18px;
   }
@@ -694,11 +708,7 @@ textarea.contact-input~.form-icon {
     margin-top: 8px;
   }
 
-  .contact-form button {
-    left: 30%;
-  }
-
-  .text-container p {
+  .text-container {
     font-size: 16px;
   }
 }
